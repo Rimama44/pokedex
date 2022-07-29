@@ -12,8 +12,7 @@ object Main extends App {
     try {
       print("Entrez le pokemon souhaité: ")
       val pokemon = readLine()
-      val urlnext = "pokemon/"
-      val http = url+urlnext+pokemon
+      val http = url+"pokemon/"+pokemon
       val result = scala.io.Source.fromURL(http).mkString
       println(result)
       println(http)
@@ -25,8 +24,7 @@ object Main extends App {
     try {
       print("Entrez le pokemon souhaité: ")
       val pokemon = readLine()
-      val urlnext = "pokemon-habitat/"
-      val http = url+urlnext+pokemon
+      val http = url+"pokemon/"+pokemon+"/encounters"
       val result = scala.io.Source.fromURL(http).mkString
       println(result)
       println(http)
