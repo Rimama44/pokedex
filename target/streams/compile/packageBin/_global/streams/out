@@ -1,1 +1,41 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\pokedex_3-0.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\pokedex_3-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\classes\com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\pokemon[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\classes\com\pokemon[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\pokemon\PokedexGET.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\classes\com\pokemon\PokedexGET.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\pokemon\PokedexGET.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\classes\com\pokemon\PokedexGET.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\pokemon\PokedexGETALL$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\classes\com\pokemon\PokedexGETALL$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\pokemon\PokedexGETALL.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\classes\com\pokemon\PokedexGETALL.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\pokemon\PokedexGETALL.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\classes\com\pokemon\PokedexGETALL.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\pokemon\PokedexMATCH$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\classes\com\pokemon\PokedexMATCH$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\pokemon\PokedexMATCH.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\classes\com\pokemon\PokedexMATCH.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\pokemon\PokedexMATCH.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\classes\com\pokemon\PokedexMATCH.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\pokemon\PokedexWHEREIS$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\classes\com\pokemon\PokedexWHEREIS$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\pokemon\PokedexWHEREIS.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\classes\com\pokemon\PokedexWHEREIS.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\pokemon\PokedexWHEREIS.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\classes\com\pokemon\PokedexWHEREIS.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\pokemon\PokemonGET$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\classes\com\pokemon\PokemonGET$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\pokemon\PokemonGET.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\classes\com\pokemon\PokemonGET.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\pokemon\PokemonGET.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\classes\com\pokemon\PokemonGET.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\classes\Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\classes\Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\target\scala-3.1.3\classes\Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

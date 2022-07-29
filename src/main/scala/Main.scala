@@ -8,6 +8,7 @@ object Main extends App {
   print("Entrez votre commande (GET/GETALL/WHEREIS/MATCH):")
   val cmd = readLine()
 
+  //Nous voulions faire un switch case mais nous n'avons pas réussi...
   if (cmd == "GET") {
     try {
       print("Entrez le pokemon souhaité: ")
@@ -20,6 +21,51 @@ object Main extends App {
       case e: Exception => println("Pas d'informations sur ce Pokemon (existe-il vraiment ?)")
     }
   }
+  else if (cmd == "GETALL") {
+    try {
+      print("Vous souhaitez chercher par 'type', 'generation' ou si le pokemon est 'legendaire' ou non ?\n Entrez type/generation/legendaire: ")
+      val search = readLine()
+      if (search == "type"){
+        try {
+          print("Quel type de pokemon cherchez-vous ?")
+          val typee = readLine()
+          val http = url+"type/"+typee
+          val result = scala.io.Source.fromURL(http).mkString
+          println(result)
+          println(http)
+        } catch {
+            case e: Exception => println("Pas d'informations sur ce type de Pokemon (existent-ils vraiment ?)")
+        }
+      }
+      else if (search == "generation"){
+        try {
+          print("Quelle generation de pokemon vous interesse ?")
+          val gen = readLine()
+          val http = url+"generation/"+gen
+          val result = scala.io.Source.fromURL(http).mkString
+          println(result)
+          println(http)
+        } catch {
+            case e: Exception => println("Pas d'informations sur cette generation de Pokemon (existent-ils vraiment ?)")
+        }
+      }
+      else if (search == "legendaire"){
+        try {
+          print("Cherchez vous les pokemon legendaire ? (O/N)")
+          val legendary = readLine()
+          // val http = url+"generation/"+legendary
+          // val result = scala.io.Source.fromURL(http).mkString
+          // println(result)
+          // println(http)
+          print("Commande indisponible pour le moment...")
+        } catch {
+            case e: Exception => println("Pas d'informations sur ces Pokemons (existent-ils vraiment ? o_O)")
+        }
+      }
+    } catch {
+        case e: Exception => println("Pas d'informations ou erreur de saisie")
+    }
+  }
   else if (cmd == "WHEREIS") {
     try {
       print("Entrez le pokemon souhaité: ")
@@ -28,6 +74,13 @@ object Main extends App {
       val result = scala.io.Source.fromURL(http).mkString
       println(result)
       println(http)
+    } catch {
+        case e: Exception => println("Pas d'informations sur ce Pokemon (existe-il vraiment ?)")
+    }
+  }
+  else if (cmd == "MATCH") {
+    try {
+      print("Commande indisponible pour le moment...")
     } catch {
         case e: Exception => println("Pas d'informations sur ce Pokemon (existe-il vraiment ?)")
     }
