@@ -1,4 +1,4 @@
-name := "Pokedex"
+name := "pokedex"
 
 version := "0.1"
 
@@ -11,4 +11,5 @@ libraryDependencies ++= Seq(
   "io.monix" %% "monix-eval" % "3.4.0",
   "org.scalactic" %% "scalactic" % "3.2.12",
   "org.scalatest" %% "scalatest" % "3.2.12" % "test",
+  "io.github.juliano" % "pokeapi-scala_3" % "0.1.0",
 )

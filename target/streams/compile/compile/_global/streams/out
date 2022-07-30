@@ -1,7 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\src\main\scala\Main.scala:13:27 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m13 |[0m    [33mval[0m [36mhttp[0m = url+urlnext+pokemon[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                           ^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                           Not found: pokemon[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: C:\Users\marie\Documents\Ecole\Efrei\CDGP\scala\pokedex\src\main\scala\Main.scala:4:19 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m4 |[0m[33mimport[0m com.pokemon.Pokemon[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                   ^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mvalue Pokemon is not a member of com.pokemon - did you mean pokemon.PokemonGET?[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

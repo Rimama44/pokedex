@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="okio-jvm-3.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_9aa49a22/target/6ab1952f/c8f4cd5e/okio-jvm-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

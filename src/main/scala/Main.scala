@@ -1,6 +1,9 @@
 import scala.io.StdIn.readLine
+import spray.json._
+import DefaultJsonProtocol._ // if you don't supply your own Protocol (see below)1
 
 object Main extends App {
+  var jsonresponse = ""
   println("Bienvenue sur le Pokédex !\n\nLes commandes possibles sont:\n\n- GET <pokemon-name>\n- GETALL <region?> <pokemon-type1?> <generation?> <legendary?>\n- WHEREIS <pokemon-name>\n- MATCH <pokemon-name>")
   
   val url = "https://pokeapi.co/api/v2/"
@@ -15,7 +18,8 @@ object Main extends App {
       val pokemon = readLine()
       val http = url+"pokemon/"+pokemon
       val result = scala.io.Source.fromURL(http).mkString
-      println(result)
+      jsonresponse = result
+      println(jsonresponse)
       println(http)
     } catch {
       case e: Exception => println("Pas d'informations sur ce Pokemon (existe-il vraiment ?)")

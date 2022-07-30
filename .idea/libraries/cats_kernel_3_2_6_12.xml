@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cats-kernel_3-2.6.12">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_9aa49a22/target/8acc306a/6e8a3943/cats-kernel_3-2.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

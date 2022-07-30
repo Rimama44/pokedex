@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="scala-collection-compat_3-2.5.01">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_9aa49a22/target/2da0b338/d6ac6975/scala-collection-compat_3-2.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

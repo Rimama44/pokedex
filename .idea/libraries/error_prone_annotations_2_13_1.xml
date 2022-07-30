@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="error_prone_annotations-2.13.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_9aa49a22/target/c05e34a4/907eea7f/error_prone_annotations-2.13.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

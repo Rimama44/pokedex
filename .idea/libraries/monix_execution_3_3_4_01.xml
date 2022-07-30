@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="monix-execution_3-3.4.01">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_9aa49a22/target/43d00d24/26bc9f59/monix-execution_3-3.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
